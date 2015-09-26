@@ -1,3 +1,8 @@
 class Foobar
-  # ENTER CODE FOR Q2 HERE
+  def initialize(baz)
+  	puts baz 	
+  end
+  def bar(cat, dat)
+  	cat + "baz" + dat
+  end
 end
